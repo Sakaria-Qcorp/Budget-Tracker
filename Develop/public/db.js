@@ -9,3 +9,17 @@ request.onupgradeneeded = function( event ) {
    const budgetStore = db.createObjectStore("budgetStore", {autoIncrement: true});
 
 };
+
+request.onsuccess = function(event) {
+db = event.target.result;
+
+};
+
+function saveData(data){
+    
+const transaction = db.transaction(["budgetStore"], "readwrite");
+
+}
+function checkData(data){
+
+}
