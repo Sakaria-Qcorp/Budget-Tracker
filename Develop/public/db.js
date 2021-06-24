@@ -12,6 +12,9 @@ request.onupgradeneeded = function( event ) {
 
 request.onsuccess = function(event) {
 db = event.target.result;
+if (navigator.onLine) {
+    checkData();
+  }
 
 };
 
@@ -19,6 +22,7 @@ function saveRecord(data){
     
 const transaction = db.transaction(["budgetStore"], "readwrite");
 const budgetStore = transaction.objectStore("budgetStore"); 
+budgetStore.add(data);
 
 }
 function checkData(data){
