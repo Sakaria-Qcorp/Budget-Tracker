@@ -15,11 +15,14 @@ db = event.target.result;
 
 };
 
-function saveData(data){
+function saveRecord(data){
     
 const transaction = db.transaction(["budgetStore"], "readwrite");
+const budgetStore = transaction.objectStore("budgetStore"); 
 
 }
 function checkData(data){
-
+    const transaction = db.transaction(["budgetStore"], "readwrite");
+    const budgetStore = transaction.objectStore("budgetStore");
+    const getAll = budgetStore.getAll();
 }
