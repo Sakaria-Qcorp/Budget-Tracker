@@ -27,7 +27,7 @@
   Express,Morgan,Mongoose , lite-server,
 
   ## Screenshot
-  NA
+  ![screenshot](./Develop\public\icons\Capture.PNG)
   ## Tests
   npm test
   ## License
