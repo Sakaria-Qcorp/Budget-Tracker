@@ -12,8 +12,6 @@
   - [dependencies](#dependencies)
   - [Screenshot](#Screenshot)
   - [Test](#tests)
-  
-  - [Questions](#Question)
   - [Additional](#additional)
 
   ## Installation
