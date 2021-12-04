@@ -1,5 +1,5 @@
 
-# Project Name: Budget Tracker
+# Budget Tracker
  
   ## Description
   In this app the user would be able to adjust their budget by adding expenses or deposits. The app would work of line and update the database once online again.
