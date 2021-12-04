@@ -2,7 +2,7 @@
 # Project Name: Budget Tracker
  
   ## Description
-  This project is created to track expenses.
+  In this app the user would be able to adjust their budget by adding expenses or deposits. The app would work of line and update the database once online again.
   ## author
   Sakria Ahmed
 
