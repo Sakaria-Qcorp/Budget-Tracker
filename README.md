@@ -1,8 +1,8 @@
 
-# Project Name: Budget Tracker
+# Budget Tracker
  
   ## Description
-  This project is created to track expenses.
+  In this app the user would be able to adjust their budget by adding expenses or deposits. The app would work offline and update the database once online again.
   ## author
   Sakria Ahmed
 
@@ -23,11 +23,14 @@
 
 
 
+
   ## Dependencies
-  Express,Morgan,Mongoose , lite-server,
+  Express, Morgan, Mongoose , lite-server,
 
   ## Screenshot
+  
   ![screenshot](./assets/Capture.PNG)
+
   ## Tests
   npm test
   ## License
@@ -40,7 +43,8 @@
   * GitHub: [sakariaQcorp](https://github.com/sakariaQcorp)
   
   ## Any additional information
-  It could be adjusted to use for any specidic thing
+   To See the application in action click the link below.
+  [Application](https://expense-tracker31.herokuapp.com/)
   
 
   
