@@ -19,15 +19,15 @@
   
   ## Usage
 
-  sakariaQcorp
+  In this app the user will be able to add expenses and deposits to their budget with or without a connection. When the user enters expenses offline the data will populate and update the database once online.
 
-  
+
 
   ## Dependencies
   Express,Morgan,Mongoose , lite-server,
 
   ## Screenshot
-  ![screenshot](public\icons\Capture.PNG)
+  ![screenshot](./assets/Capture.PNG)
   ## Tests
   npm test
   ## License
